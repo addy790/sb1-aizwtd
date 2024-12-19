@@ -1,0 +1,17 @@
+export const dataTypeMapping: Record<string, string> = {
+  'credit_card': 'PAYMENT_INFO',
+  'ssn': 'GOVERNMENT_ID',
+  'email': 'CONTACT_INFO',
+  'phone': 'CONTACT_INFO',
+  'address': 'LOCATION_DATA',
+  'date_of_birth': 'PERSONAL_INFO',
+  'api_key': 'SECURITY_CREDENTIAL',
+  'password_hash': 'SECURITY_CREDENTIAL',
+  'ip_address': 'NETWORK_DATA',
+  'jwt_token': 'SECURITY_CREDENTIAL',
+  'blockchain_address': 'FINANCIAL_DATA',
+  'medical_record': 'HEALTH_DATA',
+  'bank_account': 'FINANCIAL_DATA',
+  'passport_number': 'GOVERNMENT_ID',
+  'device_id': 'DEVICE_INFO',
+};
